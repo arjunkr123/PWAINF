@@ -78,21 +78,21 @@
                         <li>
                             <input type="button" name="rPrice" id="rtfPrice" value="2,5" hidden
                                 @click="filterPriceBtn($event)" />
-                            <label for="rtfPrice" class="d-flex justify-content-between">₹2 - ₹5 <button
+                            <label for="rtfPrice" class="d-flex justify-content-between">₹200 - ₹500 <button
                                     class="unselect-btn" @click="unselectPriceBtn($event)">X</button></label>
                         </li>
 
                         <li>
                             <input type="button" name="rPrice" id="rftPrice" value="5,10" hidden
                                 @click="filterPriceBtn($event)" />
-                            <label for="rftPrice" class="d-flex justify-content-between">₹5 - ₹10 <button
+                            <label for="rftPrice" class="d-flex justify-content-between">₹500 - ₹800 <button
                                     class="unselect-btn" @click="unselectPriceBtn($event)">X</button></label>
                         </li>
 
                         <li>
                             <input type="button" name="rPrice" id="rttPrice" value="10,12" hidden
                                 @click="filterPriceBtn($event)" />
-                            <label for="rttPrice" class="d-flex justify-content-between">₹10 - ₹12 <button
+                            <label for="rttPrice" class="d-flex justify-content-between">₹700 - ₹800 <button
                                     class="unselect-btn" @click="unselectPriceBtn($event)">X</button></label>
                         </li>
 
@@ -145,17 +145,29 @@
                         <input type="button" id="allFilterFoodBtn" name="allFilterFoodBtn" value="all"
                             class="menu-tab-item" @click="filterFoodBtn($event)" />
                         <input type="button" id="tacoFilterFoodBtn" name="tacoFilterFoodBtn" class="menu-tab-item"
-                            value="taco" @click="filterFoodBtn($event)" />
+                            value="Main Course" @click="filterFoodBtn($event)" />
                         <input type="button" id="burritoFilterFoodBtn" name="burritoFilterFoodBtn" class="menu-tab-item"
-                            value="burrito" @click="filterFoodBtn($event)" />
+                            value="Chinese" @click="filterFoodBtn($event)" />
+                            <input type="button" id="burritoFilterFoodBtn" name="burritoFilterFoodBtn" class="menu-tab-item"
+                            value="Champaran Meat Handi  Thali" @click="filterFoodBtn($event)" />
                         <input type="button" id="nachosFilterFoodBtn" name="nachosFilterFoodBtn" class="menu-tab-item"
-                            value="nachos" @click="filterFoodBtn($event)" />
+                            value="Tandoori Starter" @click="filterFoodBtn($event)" />
                         <input type="button" id="sidesFilterFoodBtn" name="sidesFilterFoodBtn" class="menu-tab-item"
-                            value="sides" @click="filterFoodBtn($event)" />
+                            value="Combos" @click="filterFoodBtn($event)" />
                         <input type="button" id="dessertFilterFoodBtn" name="dessertFilterFoodBtn" class="menu-tab-item"
-                            value="dessert" @click="filterFoodBtn($event)" />
+                            value="Soup & Shorbas" @click="filterFoodBtn($event)" />
                         <input type="button" id="drinkFilterFoodBtn" name="drinkFilterFoodBtn" class="menu-tab-item"
-                            value="drink" @click="filterFoodBtn($event)" />
+                            value="Shakes" @click="filterFoodBtn($event)" />
+                            <input type="button" id="drinkFilterFoodBtn" name="drinkFilterFoodBtn" class="menu-tab-item"
+                            value="Roti Bread & Rice" @click="filterFoodBtn($event)" />
+                            <input type="button" id="drinkFilterFoodBtn" name="drinkFilterFoodBtn" class="menu-tab-item"
+                            value="Mocktails" @click="filterFoodBtn($event)" />
+                            <input type="button" id="drinkFilterFoodBtn" name="drinkFilterFoodBtn" class="menu-tab-item"
+                            value="Dal & Chana" @click="filterFoodBtn($event)" />
+                            <input type="button" id="drinkFilterFoodBtn" name="drinkFilterFoodBtn" class="menu-tab-item"
+                            value="Continental" @click="filterFoodBtn($event)" />
+                            <input type="button" id="drinkFilterFoodBtn" name="drinkFilterFoodBtn" class="menu-tab-item"
+                            value="Briyani" @click="filterFoodBtn($event)" />
                     </div>
                 </div>
 
@@ -665,9 +677,9 @@ hr {
 }
 
 .menu-section .action-row .action-btn {
-    background-color: #27ae60;
+    background-color: #ff9900;
     padding: 3px;
-    border: 2px solid #27ae60;
+    border: 2px solid #0400ff;
     border-radius: 30%;
     color: white;
 }
