@@ -17,7 +17,7 @@
         <div class="home-category">
             <router-link @click="scrollToTop()" to="/menu" class="box">
                 <img src="../assets/images/taco-img.png" alt="">
-                <h3>INDIAN MAIN COURSE</h3>
+                <h3>Main Course</h3>
             </router-link>
 
             <router-link @click="scrollToTop()" to="/menu" class="box">
@@ -42,14 +42,14 @@
 
             <router-link @click="scrollToTop()" to="/menu" class="box">
                 <img src="../assets/images/coca-img.png" alt="">
-                <h3>Mocktails and shake</h3>
+                <h3>beverages</h3>
             </router-link>
         </div>
 
         <div class="home-banner">
             <div class="grid-banner row">
                 <div class="grid col-md-4">
-                    <img src="../assets/images/dis-1.jpg" alt="">
+                    <img src="../assets/images/dis-1.png" alt="">
                     <div class="content">
                         <span>special offer</span>
                         <h3>upto 50% off</h3>
@@ -67,7 +67,7 @@
                 </div>
 
                 <div class="grid col-md-4">
-                    <img src="../assets/images/dis-3.jpg" alt="">
+                    <img src="../assets/images/dis-3.png" alt="">
                     <div class="content">
                         <span>limited offer</span>
                         <h3>100% cashback</h3>
@@ -86,15 +86,17 @@
             <div class="content">
                 <span>why choose us?</span>
                 <h3 class="title">what's make our food delicious!</h3>
-                <p>Food to customers is always guaranteed of the best quality. Our dishes are made by chef Quang (a 5
-                    Michelin stars chef), promising to bring explosive, delicate, impressive flavors. Our delivery
-                    service is very professional, customers can enjoy the same quality at the restaurant</p>
+                <p>Choose our restaurant for fresh and flavorful cuisine, exceptional service, a comfortable atmosphere, a convenient location, and affordable prices. Our dedicated staff serves delicious dishes made from the freshest ingredients. Come dine in our welcoming atmosphere, conveniently located for all. Enjoy a memorable dining experience at an affordable price.</p>
                 <router-link @click="scrollToTop()" to="/about" class="btn">read more</router-link>
 
                 <div class="icons-container">
+
                     <div class="icons">
+
                         <img src="../assets/images/serv-1.png" alt="">
+
                         <h3>fast delivery</h3>
+
                     </div>
                     <div class="icons">
                         <img src="../assets/images/serv-2.png" alt="">
@@ -197,15 +199,15 @@ export default {
     padding: 2rem;
     text-align: center;
     border-radius: .5rem;
-    background: #f7f7f7;
+    background: #09cce6;
 }
 
 .home-category .box:hover {
-    background: #27ae60;
+    background: #eb530c;
 }
 
 .home-category .box:hover h3 {
-    color: #fff;
+    color: rgb(31, 182, 228);
 }
 
 .home-category .box img {
@@ -224,6 +226,7 @@ export default {
     height: 45rem;
     background-size: cover;
     background-position: center;
+    
     position: relative;
 }
 
@@ -237,7 +240,7 @@ export default {
 .home-banner .row-banner .content span {
     font-family: 'Satisfy', cursive;
     font-size: 4rem;
-    color: #27ae60;
+    color: #000000;
     color: #130f40;
 }
 
@@ -290,12 +293,12 @@ export default {
 
 .home-banner .grid-banner .grid .content span {
     font-size: 2.5rem;
-    color: #fff;
+    color: rgb(207, 15, 15);
 }
 
 .home-banner .grid-banner .grid .content h3 {
     font-size: 3rem;
-    color: #fff;
+    color: rgb(160, 6, 6);
     padding-top: .5rem;
 }
 
@@ -304,7 +307,7 @@ export default {
     flex-wrap: wrap;
     align-items: center;
     gap: 2rem;
-    background: #f7f7f7;
+    background: #db0808;
 }
 
 .home-about .image {
@@ -323,7 +326,7 @@ export default {
 .home-about .content span {
     font-family: 'Satisfy', cursive;
     font-size: 3rem;
-    color: #27ae60;
+    color: #0c99f7;
 }
 
 .home-about .content .title {
@@ -336,7 +339,7 @@ export default {
     padding: 1rem 0;
     line-height: 2;
     font-size: 1.4rem;
-    color: #666;
+    color: rgb(245, 240, 238);
 }
 
 .home-about .content .icons-container {
@@ -349,7 +352,7 @@ export default {
 .home-about .content .icons-container .icons {
     flex: 1 1 20rem;
     border-radius: .5rem;
-    background: #fff;
+    background: rgb(179, 20, 20);
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
     display: flex;
     align-items: center;
@@ -359,7 +362,7 @@ export default {
 
 .home-about .content .icons-container .icons h3 {
     font-size: 1.7rem;
-    color: #130f40;
+    color: #df5b10;
 }
 
 @media (max-width: 768px) {

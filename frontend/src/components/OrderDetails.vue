@@ -106,7 +106,7 @@ export default {
 .order-details .order-details-inner {
     width: 60vw;
     height: 70vh;
-    background-color: #fff;
+    background-color: rgb(139, 24, 24);
     padding: 32px;
 }
 

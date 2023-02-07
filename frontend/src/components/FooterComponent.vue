@@ -91,7 +91,7 @@ export default {
 <style scoped>
 /* footer */
 .footer {
-    background: #f7f7f7;
+    background: #adadad;
     padding: 2rem 9%;
 }
 
@@ -102,7 +102,7 @@ export default {
 
 .footer .news-letter h3 {
     font-size: 2.5rem;
-    color: #130f40;
+    color: #000000;
     padding-bottom: 1rem;
 }
 

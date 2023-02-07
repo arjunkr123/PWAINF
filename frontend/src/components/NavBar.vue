@@ -101,8 +101,8 @@ export default {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: #fff;
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+    background: rgb(14, 15, 15);
+    box-shadow: 0 1rem 1rem rgba(240, 235, 235, 0.05);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -112,7 +112,7 @@ export default {
 .header .logo {
     font-size: 2.5rem;
     font-weight: bolder;
-    color: #130f40;
+    color: #e0dfe9;
 }
 
 .header .logo img {
@@ -203,7 +203,7 @@ export default {
 
 .header .icons .account:hover .drop-down-select a:hover {
     background-color: #f38609;
-    color: white;
+    color: rgb(26, 24, 24);
 }
 
 @media (min-width: 769px) {
@@ -218,7 +218,7 @@ export default {
         top: 99%;
         left: 0;
         right: 0;
-        background: #fff;
+        background: rgb(218, 58, 58);
         border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
         border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);

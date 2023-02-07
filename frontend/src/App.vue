@@ -44,5 +44,11 @@ export default {
 
 <style>
 @import "./assets/css/global_style.css";
+
+.auth-wrapper{
+    background: #89eefc;
+    }
+
+
 </style>
 

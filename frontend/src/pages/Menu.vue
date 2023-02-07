@@ -149,7 +149,7 @@
                         <input type="button" id="burritoFilterFoodBtn" name="burritoFilterFoodBtn" class="menu-tab-item"
                             value="Chinese" @click="filterFoodBtn($event)" />
                             <input type="button" id="burritoFilterFoodBtn" name="burritoFilterFoodBtn" class="menu-tab-item"
-                            value="Champaran Meat Handi  Thali" @click="filterFoodBtn($event)" />
+                            value="Champaran Handi" @click="filterFoodBtn($event)" />
                         <input type="button" id="nachosFilterFoodBtn" name="nachosFilterFoodBtn" class="menu-tab-item"
                             value="Tandoori Starter" @click="filterFoodBtn($event)" />
                         <input type="button" id="sidesFilterFoodBtn" name="sidesFilterFoodBtn" class="menu-tab-item"

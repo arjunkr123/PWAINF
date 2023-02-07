@@ -9,15 +9,38 @@
             <div class="about-content">
                 <img src="../assets/images/taco-chefcartoon.png" alt="">
                 <div class="about-content-text">
-                    <p>Our restaurant QFood was founded by Quang (a 5 Michelin stars chef) in 2002 in Vietnam. After
-                        that, thanks to the support of our customers, our brand has been popularized globally in markets
-                        such as Australia, USA, Canada, UK, France, Germany, Belgium, Russia, China, Japan,
-                        Singapore, ... Mexican-style meals, the products that we deliver to customers are always the
-                        best quality products.</p>
-                    <p>Customers can eat at the restaurant to experience the Mexican atmosphere or can order food to be
-                        delivered to their homes.</p>
-                </div>
+                    <p>Welcome to Ice n Fire Restaurant, where we serve the best fine-dine cuisine in Greater Noida. Our passion for food, combined with our commitment to providing exceptional service, has made us a popular destination for both families and friends.</p>
+                    <p>At Ice n Fire, we believe that dining should be an experience, not just a meal. That's why we use only the freshest ingredients and prepare each dish with the utmost care and attention to detail. Our menu features a wide range of dishes, from classic comfort foods to contemporary creations, ensuring that there is something to suit every taste.</p>
+                <p>Our spacious dining room is designed to be both comfortable and elegant, providing the perfect setting for a night out with family or a celebration with friends. Whether you're looking for a romantic dinner for two, or a family gathering, Ice n Fire is the ideal choice.</p>
+               <p>Our knowledgeable and friendly staff are dedicated to making sure that your dining experience is unforgettable. From the moment you walk through our doors to the moment you leave, our team is here to ensure that every detail is taken care of, so you can sit back, relax and enjoy your meal.</p> </div>
+           </div>
+        </div>
+ 
+        <div class="row">
+            <div class="about-article">
+                <h3>Our franchise program</h3>
             </div>
+        </div>
+        <div class="row">
+            <div class="about-content">
+                <img src="../assets/images/franchise.png" alt="">
+                <div class="about-content-text">
+                    <p>Are you looking to bring the exceptional dining experience of Ice n Fire Restaurant to your community? Our franchise program offers you the opportunity to join a growing brand and provide your customers with the finest fine-dine cuisine.</p>
+                    <p>At Ice n Fire, we take pride in the quality of our food, service, and overall dining experience. Our menu features a range of dishes made with only the freshest ingredients, and our staff is dedicated to providing each and every guest with exceptional service.</p>
+                <p>As a franchisee of Ice n Fire, you'll receive comprehensive training and support to help you every step of the way. From site selection and design to marketing and operations, our team will work closely with you to ensure your success.</p>
+               <p>Some of the benefits of joining the Ice n Fire franchise program include:</p>
+               <ul>
+  <li>A proven business model and established brand</li>
+  <li>Access to our signature menu and proprietary recipes</li>
+   <li> Comprehensive training and ongoing support</li>
+<li>Marketing and advertising support to drive traffic and sales
+</li>
+  <li>A dedicated franchise support team to assist with all aspects of your business
+</li>
+</ul> </div>
+
+           </div>
+           <router-link @click="scrollToTop()" to="https://docs.google.com/forms/d/1hQAdQhKx1iEvApASr68Php6QbYIeNCfiN89u7mNIUhM" class="btn">Apply Now</router-link>
         </div>
 
         <div class="row">
@@ -63,7 +86,7 @@ export default {
 }
 
 .about-section .about-content img {
-    background-color: rgb(249, 249, 249);
+    background-color: rgb(75, 143, 137);
 }
 
 .about-section .about-content .about-content-text {
