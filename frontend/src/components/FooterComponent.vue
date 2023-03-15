@@ -60,10 +60,10 @@
         <div class="bottom">
 
             <div class="share">
-                <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
-                <a href="https://twitter.com/?lang=en" class="fab fa-twitter"></a>
-                <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
-                <a href="https://www.pinterest.com/" class="fab fa-pinterest"></a>
+                <a href="https://www.facebook.com/icenfire2022" class="fab fa-facebook-f"></a>
+                <a href="https://api.whatsapp.com/send?phone=919821344567" class="fab fa-whatsapp"></a>
+                <a href="https://www.instagram.com/icenfire.in/" class="fab fa-instagram"></a>
+                
             </div>
 
         </div>

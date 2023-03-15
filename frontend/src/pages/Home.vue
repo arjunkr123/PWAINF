@@ -116,6 +116,8 @@
     </div>
 </template>
 
+
+
 <script>
 export default {
     name: "Home",
@@ -137,6 +139,7 @@ export default {
 }
 
 .home-main {
+    
     display: flex;
     align-items: center;
     flex-wrap: wrap-reverse;
@@ -246,7 +249,7 @@ export default {
 
 .home-banner .row-banner .content h3 {
     font-size: 6rem;
-    color: red;
+    color: rgb(253, 249, 245);
     text-transform: uppercase;
 }
 
@@ -293,12 +296,12 @@ export default {
 
 .home-banner .grid-banner .grid .content span {
     font-size: 2.5rem;
-    color: rgb(207, 15, 15);
+    color: rgb(247,148,52);
 }
 
 .home-banner .grid-banner .grid .content h3 {
     font-size: 3rem;
-    color: rgb(160, 6, 6);
+    color: rgb(247,148,52);
     padding-top: .5rem;
 }
 
@@ -307,7 +310,7 @@ export default {
     flex-wrap: wrap;
     align-items: center;
     gap: 2rem;
-    background: #db0808;
+    background: hsl(29.54,92.42%,58.63%);
 }
 
 .home-about .image {
@@ -352,7 +355,7 @@ export default {
 .home-about .content .icons-container .icons {
     flex: 1 1 20rem;
     border-radius: .5rem;
-    background: rgb(179, 20, 20);
+    background: rgb(99,186,219);
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
     display: flex;
     align-items: center;

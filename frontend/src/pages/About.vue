@@ -87,7 +87,7 @@ export default {
 
 .about-section .about-content img {
     background-color: rgb(75, 143, 137);
-}
+} 
 
 .about-section .about-content .about-content-text {
     font-size: 16px;
